@@ -30,13 +30,19 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+    ul {list-style-image: url('Images/File\ 5.png');
 }
-ul {
+}
+
+.nav-list li {
+    margin: 0;
+}
+.why-list {
     list-style: none;
     padding-left: 0;
 }
 
-li {
+.why-list li {
     background-image: url("Images/File\ 5.png");
     background-repeat: no-repeat;
     background-size: 18px;
@@ -44,12 +50,6 @@ li {
     padding-left: 30px;
     margin-bottom: 12px;
 }
-
-.nav-list li {
-    margin: 0;
-    
-}
-
 nav a {
     color: white;
     text-decoration: none;
