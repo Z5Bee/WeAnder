@@ -6,49 +6,142 @@ body {
 
 header {
     background-color: #0D7269;
-    padding: 20px;
-    text-align: center;
+    padding: 18px 24px;
+}
+
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
-    color: #0D7269;
-    font-size: 40px;
+    width: 72px;
+    height: auto;
+    display: block;
 }
 
-nav ul {
-    list-style-type: none;
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
     padding: 0;
+    ul {list-style-image: url('Images/File\ 5.png');
+}
 }
 
-nav li {
-    display: inline;
-    margin: 50px;
+.nav-list li {
+    margin: 0;
 }
 
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-weight: 600;
+    padding: 6px 8px;
 }
 
 nav a:hover {
-    color: #2E6E65;
+    color: #DFF3EF;
+}
+
+.download-btn {
+    border: 2px solid white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: #F26657;
+    color: white;
+    font-size: 20px;
+}
+
+.download-btn:hover {
+    background: rgba(255,255,255,0.06);
 }
 
 .hero {
-    padding: 50px;
-    text-align: center;
+    padding: 60px 20px;
 }
 
-.hero img {
-    width: 300px;
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    align-items: start;
 }
 
+.hero-copy {
+    text-align: left;
+}
+.boxed-paragraph {
+  border: 2px solid #0D7269;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 590px;
+}
+.road-image {
+    width: 800px;
+    height: auto;
+    border-radius: 30px;
+    margin: 50px 0;
+}
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.05;
+    color: #072f2c;
+    margin: 0 0 20px;
+    font-weight: 800;
+}
+
+.hero-visual {
+    display: grid;
+    gap: 20px;
+    max-width: 320px;
+    justify-self: end;
+}
+
+.hero-image-slot {
+    background: transparent;
+    border-radius: 28px;
+    padding: 18px;
+}
+
+.hero-image-slot img {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    border-radius: 18px;
+    min-width: 200px;
+}
 .button {
     background-color: #2E6E65;
     color: white;
     padding: 12px 20px;
     text-decoration: none;
     border-radius: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+#download .button {
+    background: transparent;
+    color: #2E6E65;
+    border: 2px solid #2E6E65;
+    border-radius: 12px;
+    padding: 12px 22px;
+    font-weight: 700;
+}
+
+#download .button:hover {
+    background: #2E6E65;
+    color: white;
 }
 
 .button:hover {
@@ -87,9 +180,27 @@ footer {
 
 @media screen and (max-width: 700px) {
 
-    nav li {
+    .header-inner {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .nav-list {
+        justify-content: center;
+    }
+
+    .hero-content {
         display: block;
-        margin: 10px;
+    }
+
+    .hero-copy {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .hero-image-slot.secondary {
+        transform: none;
     }
 
     .card-container {
