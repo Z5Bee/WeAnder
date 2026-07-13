@@ -1,13 +1,14 @@
 # Project Title
+WeAnder
 
 ## Project Description
-What did you make?
+A home page for a travel app.
 
 ## Intended User or Player
-Who is this interface designed for?
+People around 20-40 years old interesting in travel, usually from an instagram link in the companys bio. 
 
 ## User / Player Goal
-What should the user or player be able to do or understand?
+The user should be able to get information about an app. 
 
 ## Inspiration Interfaces
 List the inspiration interfaces you used and briefly explain what you learned from them.
