@@ -185,9 +185,6 @@ section {
     background-position: center;
     color: white;
 }
-.ScenicHover:hover {
-    background-images: url("Images/IMG_0616\ 1.png")
-}
 
 footer {
     background-color: #2E6E65;
