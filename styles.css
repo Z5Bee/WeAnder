@@ -51,7 +51,7 @@ header {
     margin-bottom: 12px;
 }
 nav a {
-    color: white;
+    color: #FDFBF2;
     text-decoration: none;
     font-weight: 600;
     padding: 6px 8px;
@@ -62,11 +62,11 @@ nav a:hover {
 }
 
 .download-btn {
-    border: 2px solid white;
+    border: 2px solid #FDFBF2;
     padding: 6px 12px;
     border-radius: 8px;
     background: #F26657;
-    color: white;
+    color: #FDFBF2;
     font-size: 20px;
 }
 
@@ -91,7 +91,7 @@ nav a:hover {
     text-align: left;
 }
 .boxed-paragraph {
-  border: 2px solid #0D7269;
+  border: 4px solid #0D7269;
   padding: 20px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.9);
@@ -154,7 +154,7 @@ nav a:hover {
 
 #download .button:hover {
     background: #2E6E65;
-    color: white;
+    color: #FDFBF2;
 }
 
 .button:hover {
@@ -181,12 +181,17 @@ section {
 }
 
 .card:hover {
-    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.ScenicHover:hover {
+    background-images: url("Images/IMG_0616\ 1.png")
 }
 
 footer {
     background-color: #2E6E65;
-    color: white;
+    color: #FDFBF2;
     text-align: center;
     padding: 20px;
 }
@@ -230,4 +235,15 @@ footer {
         width: 90%;
     }
 
+}
+.link {
+    color: #FDFBF2;
+    font-weight: 600;
+    background-color: #F26657;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    display: inline-block;
 }
