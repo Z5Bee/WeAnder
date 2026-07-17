@@ -1,3 +1,4 @@
+//this shows a hidden fun fact when the button is clicked
 const button = document.getElementById("factButton");
 const fact = document.getElementById("funFact");
 

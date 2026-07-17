@@ -247,3 +247,19 @@ footer {
 @media (max-width: 600px) {
 
 }
+#factButton {
+    background-color: #F26657;
+    color: #FDFBF2;     
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+#factButton:hover {
+    background-color: #0F5D5E;  
+    transform: translateY(-2px);
+}
